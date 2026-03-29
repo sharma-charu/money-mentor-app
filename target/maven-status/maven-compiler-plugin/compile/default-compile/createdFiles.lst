@@ -1,0 +1,4 @@
+com\moneymentor\controller\MentorController.class
+com\moneymentor\MoneyMentorApplication.class
+com\moneymentor\service\AIService.class
+com\moneymentor\service\MentorService.class

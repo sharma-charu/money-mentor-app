@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Money Mentor - Couple's Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>AI Money Mentor</h1>
+        <p class="subtitle">Smart Financial Planning for Couples</p>
+
+        <form th:action="@{/calculate}" method="post">
+            <div class="form-group">
+                <label for="incomeA">Partner A's Monthly Income ($)</label>
+                <input type="number" id="incomeA" name="incomeA" required min="0" step="0.01" placeholder="e.g. 4000">
+            </div>
+
+            <div class="form-group">
+                <label for="incomeB">Partner B's Monthly Income ($)</label>
+                <input type="number" id="incomeB" name="incomeB" required min="0" step="0.01" placeholder="e.g. 3500">
+            </div>
+
+            <div class="form-group">
+                <label for="expenses">Shared Monthly Expenses ($)</label>
+                <input type="number" id="expenses" name="expenses" required min="0" step="0.01" placeholder="e.g. 3000">
+            </div>
+
+            <button type="submit" class="btn">Calculate Our Budget</button>
+        </form>
+    </div>
+
+</body>
+</html>
