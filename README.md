@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Money Mentor – Couple's Money Planner
 
 **AI Money Mentor** is an intelligent, containerized Spring Boot web application designed specifically to empower couples to plan and track their shared financial goals. The app combines deterministic, rule-based diagnostic alerts with dynamic **Google Gemini AI** to produce curated, actionable financial advice—all presented in a beautiful dark-mode dashboard.
@@ -41,3 +42,6 @@
 
 ---
 *Created as an intelligent financial planning proof-of-concept.*
+=======
+# money-mentor-app
+>>>>>>> 70033b870a58d8126a1d172dec8c21b8a7e3ea57
